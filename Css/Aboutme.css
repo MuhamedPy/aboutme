@@ -1,0 +1,623 @@
+/* Start Main Rulez*/
+body{
+    height: 4000px;
+}
+.container{
+    width: 1168px;
+    margin: auto;
+}
+.cleafix {clear:both;}
+
+/* End Main Rulez*/
+
+/*Start Header*/
+.header .slider{
+    background-color: #EEE;
+    height: 600px;
+    -webkit-background-image: url(../Img/Web.jpg);
+    -moz-background-image: url(../Img/Web.jpg);
+    -o-background-image: url(../Img/Web.jpg);
+    background-image: url(../Img/Web.jpg);
+    background-size: cover;
+}
+.header .slider .intro {
+    
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+.header .slider .intro h2 {
+    margin: 0px auto;
+    color: #2b3b3f;
+    font-size: 70px;
+    border-top: 4px solid #2b3b3f;
+    border-bottom: 4px solid #2b3b3f;
+    padding: 5px 0;
+    width: 720px;
+}
+.header .slider .intro button {
+    color: #2b3b3f;
+    background: none;
+    margin-top: 20px;
+    font-size: 25px;
+    border: 4px solid #2b3b3f;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.header .navbar {
+    background-color:#2b3b3f;
+    color: #FFF;
+    overflow: hidden;   
+}
+.header .navbar  h2{
+    float: left;
+    
+}
+.header .navbar  h2 span{color:#2ecc71;}
+.header .navbar  ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{color: #fff;
+    text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color: #30b576;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+    /*display: none;*/
+  top: -80px;
+  display:block;
+  transition: top 1s;
+  z-index: 1;
+}
+
+/*End Header*/
+/* start features */
+.logo{
+    text-align: center;
+    font-size: 36px;
+    background-color: #2B3B3F;
+    height: 100%;
+    color: white;
+    bottom:75px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo h2{
+    margin-bottom: 5px;
+}
+.logo h2 span{color:#2ecc71;}
+.features {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.features .feat {
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.features .feat h2 {color: #444;}
+.features .feat p {
+    line-height: 1.6;
+    color: #888;
+}
+/* end features */
+/* Start About Me */
+.aboutme{
+    background-color: #F2F2F2;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.aboutme .image{
+    float: left;
+    width: 40%;
+}
+.aboutme .image .imgg {width: 100%; margin-right:30px; margin-top: 10px;}
+.aboutme .info h2 {margin: 20px 0 20px 40px; color: #464545;
+}
+
+.aboutme .info > p {margin: 0px 0 10px 40px;}
+
+.aboutme .info > p:last-of-type {
+    margin-top: 30px;
+}
+
+.aboutme .info p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.aboutme .info  {
+    float: left;
+    width: 60%;
+}
+.aboutme .info .hobbies {
+    overflow: hidden;
+    margin: 40px 0 0 40px;
+}
+.aboutme .info .hobbies .content {
+    float:left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.aboutme .info .hobbies .content h3 {color: #464545;}
+.aboutme .info .hobbies .content .icon {
+    float: left;     
+    margin-right: 11px;
+    margin-top: 8px;
+}
+.aboutme .info .hobbies .content .text {float: left;}
+
+/* End About Me */
+
+/*Start My Skills*/
+#myskills{
+    margin-bottom: 30px;
+}
+.myskills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.myskills .skills,
+.myskills .progress{
+    float: left;
+    width: 50%
+}
+
+.myskills .skills h2 {
+    margin: 25px 0 20px 40px;
+    color: #555;
+}
+.myskills .skills p {
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666;
+}
+.myskills .skills p:last-of-type {
+    margin-top: 25px;
+}
+
+.myskills .skills button {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.myskills .progress .rate {margin-left: 50px;}
+.myskills .progress .rate h3 {
+    color: #555;
+    
+}
+.myskills .progress .rate > div{
+    background-color: #f2f2f2;
+    height: 25px;
+    
+}
+.myskills .progress .rate > div span {
+    background-color: #2DCC70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/*End My Skills*/
+/*start resume */
+#resume{
+    margin-bottom: 30px;
+}
+.resume {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F2F2F2;
+    text-align: center;
+}
+.resume h2 {
+    margin: 25px 0 20px 17px;
+    color: #555;
+}
+.resume p {
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666;
+    padding: 0 100px;
+}
+.resume button {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+/*End resume */
+
+/*Start My Education*/
+#Education{
+    margin-bottom: 30px;
+}
+#Exprtience{
+    margin-bottom: 80px;
+}
+.myEducation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.myEducation h3 {
+    color: #555;
+}
+.myEducation .main{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+
+}
+.myEducation .main h2 {
+    margin: 25px 0 20px 40px;
+    color: #555;
+}
+.myEducation .main p {
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666;
+}
+.myEducation .main p:last-of-type {
+    margin-top: 25px;
+}
+
+
+.myEducation .exp{
+    float: left;
+    width: 45%;
+        
+}
+.myEducation .exp h3{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.myEducation .exp span {
+    display: block;
+    margin-bottom: 10px;
+}
+.myEducation .exp span:first-of-type{
+    color: #999;
+}
+.myEducation .exp span:last-of-type{
+    color:white;
+    background-color: #2dcc70;
+    display: inline-block;
+    padding: 4px;
+}
+.myEducation hr{
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+.myEducation .exp p{
+    line-height: 1.7;
+    color: #666;
+}
+
+/*End My Education*/
+
+
+
+/*start tesrimonials */
+#testimonials{
+     margin-bottom: 80px;   
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #888;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.activee, .dot:hover {
+  background-color: #555;
+}
+
+/* Add an italic font style to all quotes */
+q {    
+    line-height: 1.7;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold 
+}
+
+/* Add a blue color to the author */
+.author {color: #555;
+        font-weight: bold }
+
+/*End tesrimonials */
+
+/*start portfolio*/
+#portfolio{
+    margin-bottom: 30px;
+}
+.portfolio{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    text-align: center;
+    
+}
+.portfolio h2 {
+    color: #555;
+}
+
+.portfolio p {
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 50px;
+}
+.portfolio .work{
+    overflow: hidden;
+}
+.portfolio .work > div{
+    float: left;
+    width: 31.3333%;
+    margin-bottom: 15px;
+}
+.portfolio .work > div img {
+    width: 120%;
+    margin-top: 1px;
+    margin-left: 15px;
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+}
+.portfolio .work figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.portfolio .work figure:hover img {
+	opacity: .8;
+}
+/*end portfolio*/
+
+/*Start Contact me*/
+
+#Contact-Me{
+    margin-bottom: 35px;
+}
+
+.contact {
+    background-color: #252F31;
+    overflow: hidden;
+    margin-top: 68px;
+    padding-bottom: 70px;
+}
+
+.contact .info{
+    width: 50%; float: left;
+    margin-right: 5%;
+}
+.contact h2 {
+    color: #FFF;
+    margin-left: 40px; 
+    
+}
+.contact p,address {
+    color: #6a6e71;
+    margin-left: 40px;
+    line-height: 1.7;
+    
+}
+.contact address{
+    color: #899c8d;
+}
+.contact address:last-of-type{
+    margin-top: 20px;
+}
+.contact address:last-of-type strong{
+    color: #AEAEAE;
+    line-height: 2;
+}
+
+.contact .form{
+    width: 45%; float: left;
+    
+}
+.contact .form label{
+    display: block;
+    color: #AEAEAE;
+    margin-bottom: 10px;
+    margin-top: 23px;
+    font-size: 15px;
+}
+.contact .form input[type="text"]{
+    background-color:#4B5557;
+    color: #D5DBDB;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    font-size: 22px;
+    transition: all .2s ease;
+    margin: 3px 0 ;
+}
+.contact .form input[type="text"]:hover{
+    outline: 1px solid #929292;
+    
+}
+
+.contact .form input[type="email"]{
+    background-color:#4B5557;
+    color: #D5DBDB;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    font-size: 22px;
+    transition: all .2s ease;
+    margin: 3px 0 ;
+}
+.contact .form input[type="email"]:hover{
+    outline: 1px solid #929292;
+}
+
+.contact .form textarea{
+    background-color:#4B5557;
+    color: #D5DBDB;
+    padding: 10px;
+    width: 80%;
+    border: 0;
+    font-size: 22px;
+    transition: all .2s ease;
+    margin: 3px 0 ;
+    height: 300px;
+}
+.contact .form textarea:hover{
+    outline: 1px solid #929292;
+}
+
+.contact .form input[type="submit"]{
+    background-color:#191e22;
+    color: #D5DBDB;
+    padding: 10px;
+    width: 30%;
+    border: 0;
+    font-size: 22px;
+    transition: all .2s ease;
+    margin: 25px 0 ;
+    
+}
+.contact .form input[type="submit"]:hover{
+    outline: 1px solid #929292;
+}
+
+
+/*End Contact me*/
+
+/*Start Footer*/
+
+.footer {
+    background-color: #191e22;
+    color: #6a6e71;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer ul li {
+    display: inline;
+}
+.footer ul li a {
+    transition: all .5s ease-in;
+}
+
+.footer ul li a:hover {
+    padding: 11px;
+    position:relative;
+    bottom: 8px;
+}
+
+.footer div {color: #e0dede;}
+
+
+.footer .byte{color:#2ecc71;}
+
+/*End Footer*/
+
+
+
+/*Start my Franework */
+
+.my-button {
+    color: #2ecc71;
+    background: none;
+    border: 3px solid #2ecc71;
+    padding: 10px 30px;
+}
+::selection {
+	background-color:#464545;
+	color: #FFF;
+}
+.footer ::selection {
+	background-color:gray;
+	color: #FFF;
+}
+.contact ::selection {
+	background-color:gray;
+	color: #FFF;
+}
+
+/* End my Franework */
+
+
+
